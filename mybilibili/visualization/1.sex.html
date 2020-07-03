@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/infographic.js"></script>
+
+</head>
+<body>
+    <div id="145b71c4f38a413bb223026f9cc43835" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_145b71c4f38a413bb223026f9cc43835 = echarts.init(
+            document.getElementById('145b71c4f38a413bb223026f9cc43835'), 'infographic', {renderer: 'canvas'});
+        var option_145b71c4f38a413bb223026f9cc43835 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u7528\u6237\u6027\u522b\u6bd4\u4f8b",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u4fdd\u5bc6",
+                    "value": 0.829749
+                },
+                {
+                    "name": "\u5973",
+                    "value": 0.050359
+                },
+                {
+                    "name": "\u7537",
+                    "value": 0.119892
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4fdd\u5bc6",
+                "\u5973",
+                "\u7537"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u7528\u6237\u6027\u522b\u997c\u72b6\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_145b71c4f38a413bb223026f9cc43835.setOption(option_145b71c4f38a413bb223026f9cc43835);
+    </script>
+</body>
+</html>
