@@ -10,6 +10,6 @@ mybilibili.py：爬虫文件
 visualization.ipynb：可视化文件
 
 使用说明：
-创建用户数据库，配置数据库连接信息，使用mybilibili.py进行爬取，最后使visualization.ipynb进行用户数据可视化；
-爬取日志保存在log.txt中可以当前爬取进度以及用户条目爬取错误日志；　
+创建用户数据库，配置数据库连接信息，使用mybilibili.py进行爬取，最后使visualization.ipynb进行用户数据可视化；  
+爬取日志保存在log.txt中可以当前爬取进度以及用户条目爬取错误日志；  
 可以使用get_proxies.py爬取互联网上公开IP代理，加快用户爬虫速度，也可以在my_proxies.py中使用的自己的代理。
