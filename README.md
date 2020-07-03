@@ -4,9 +4,13 @@
 
 ## 文件介绍：
 mybilbili.sql：数据库文件
+
 get_proxies.py：ip代理爬取文件
+
 test_proxies.py：ip代理测试文件
+
 mybilibili.py：爬虫文件
+
 visualization.ipynb：可视化文件
 
 ## 使用说明：
